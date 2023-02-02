@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+.crsl-labelheading{
+margin-left: 0.5%;
+font-size:180%;
+text-align: left;
+margin-bottom: 6%;
+
+}
+.crsl-description{
+margin-left: 0.5%;
+text-align: left;
+margin-bottom:5%;
+font-size: 70%;
+}
+
+.formclass{
+    height: 400px;
+    margin-top: 15%;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Noto Sans', sans-serif; color: #414141;
+
+}
+
+.btn-outline-secondary{
+    width: 100%;
+    border-radius: 40px;
+    border-color: orange;
+    color: orange;
+}
+.crt-acnt{
+    color:#414141  ; margin-left: 27%; width: 50%;
+    text-align: left;
+}
+
+.l-pwd{
+    text-decoration: none;
+    color:#414141  ;
+     margin-left: 35%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+    .crsl-labelheading{
+
+        font-size: 20px; 
+    }
+
+    .formclass{
+        margin-top: 2%;
+    }
+    .l-pwd{
+        margin-left:24% ;
+    }
+    .crt-acnt{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1010px){
+
+    .crt-acnt{
+        font-size: 11px;
+    }
+    
+    .l-pwd{
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1676px){
+
+    .formclass{
+        margin-top: 0%;
+
+    }
+    .rgstr{
+        margin-top: 0px;
+    }
+    .btm-class{
+        display: flex;
+        margin-left: -15%;
+        font-size: 10px;
+    }
+
+}
