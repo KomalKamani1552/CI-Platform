@@ -1,0 +1,99 @@
+
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.crsl-labelheading{
+margin-left: 0.5%;
+font-size:180%;
+text-align: left;
+margin-bottom: 6%;
+
+}
+.crsl-description{
+margin-left: 0.5%;
+text-align: left;
+margin-bottom:5%;
+font-size: 70%;
+}
+
+.formclass{
+    height: 400px;
+    margin-top: 50%;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Noto Sans', sans-serif; color: #414141;
+
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.imagee {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.btn-outline-secondary{
+    width: 100%;
+    border-radius: 40px;
+    border-color: orange;
+    color: orange;
+}
+
+
+.lost1 {
+    margin-top: 6%;
+    text-align: center;
+    font-size: small;
+    margin-left:6%;
+}
+
+
+.privacy {
+    margin-left: 5%;
+    text-align: center;
+    font-size: small;
+    color: black;
+    margin-top: 20%;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+    .crsl-labelheading{
+
+        font-size: 20px; 
+    }
+
+    .formclass{
+        margin-top: 2%;
+    }
+    
+    .crt-acnt{
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+    .formclass{
+        margin-top: 10%;
+    }
+
+}
+
+a:link {
+    text-decoration: none;
+}
