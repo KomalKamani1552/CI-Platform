@@ -1,0 +1,120 @@
+body{
+    font-family: 'Noto Sans', sans-serif;    
+letter-spacing: 0px;
+color: #333333;
+
+}
+
+/* .mainheader{
+    border: 1px solid grey;
+} */
+
+.secondnav{
+
+    padding-left:12% !important;
+    padding-right:12% !important;
+    /* height: 80px; */
+    border: 1px solid rgb(236, 234, 234);
+    height: 5em;
+  
+
+}
+.searchbutton{
+    border: none;
+    background: none;
+        
+        margin-top: 15px;
+
+}
+.searchbar1{
+
+    width: 100%;
+    border: none;
+    font-size:large;
+    margin-top: 15px;
+}
+
+
+.userimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+}
+
+
+.mainfilter{
+    display: flex;
+    
+}
+.filterbar{
+  /* border: 1px solid grey; */
+  
+  height: 100%;
+}
+
+
+.filterbox{
+    width: 25%;
+ border-right: 1px solid rgb(236, 234, 234); 
+ height: 100%;
+ padding-top: 15px; 
+}
+
+::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    margin-top: 10px;
+}
+
+   @media only screen and (min-width: 991px)  {
+
+    .hdrstry{
+           margin-left: 550%; 
+           
+    }
+
+    .hdrplcy{
+        margin-left: 650%;
+        
+        
+    }
+
+    .uname{
+        margin-right: 10%;
+    }
+  
+    }
+
+     @media only screen and (max-width: 992px) {
+        .userimg{
+            display: none;
+        }
+
+        .uname{
+            margin-left: 0rem !important;
+        }
+    
+    }
+
+
+    @media only screen and (max-width: 991px) {
+       .filterbox{
+           padding: 0px !important;
+       }
+
+       input[type="search"]::placeholder {
+                 
+        /* Firefox, Chrome, Opera */
+        text-align: left;
+    }
+
+    .searchbar1{width: 50%;
+    
+    }
+
+    .searchbutton{
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+    
+    }
